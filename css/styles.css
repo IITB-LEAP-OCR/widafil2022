@@ -195,7 +195,7 @@ dd, dt {
 }
 
 dd {
-    color:#066173;
+    color:black;
     font-size: x-large;
     font-weight: bolder;
     padding-top: 10px;
@@ -203,7 +203,7 @@ dd {
   
 dt {
     font-weight: bold;
-    color:#0d6efd;
+    color:rgb(8,8,124);
     font-size: medium;
 }
 
