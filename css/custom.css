@@ -530,3 +530,24 @@ section.video .watch-video {
         margin-top: 1.7em
     }
 }
+
+.glow {
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: tomato;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #a70d0d, 0 0 10px #0eeb32, 0 0 20px #ca2323, 0 0 30px #0dc559,
+                   0 0 30px #ce650e, 0 0 50px #9554b3, 0 0 60px #428609;
+    }
+    to {
+      text-shadow: 0 0 20px #e21414, 0 0 20px #16e243, 0 0 30px #0292b6, 0 0 40px #12bda6,
+                   0 0 40px #17e74b, 0 0 60px #146d09, 0 0 70px #0c69b6;
+    }
+}
